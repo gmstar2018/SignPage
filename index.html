@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>注册页面</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	</head>
+
+	<body>
+		<script src="js/jquery-1.12.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<header>
+			<nav class="nav navbar navbar-light bg-light">
+				<a class="navbar-brand" href="#">分类信息网</a>
+				<ul class=" navbar-nav">
+					<li class="nav-item active ">
+						<a class="nav-link" href="#">首页</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#">个人中心</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#">欢迎xxx用户</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#">帮助</a>
+					</li>
+				</ul>
+			</nav>
+
+		</header>
+		<article class="jumbotron">
+			<div class="container" align="center">
+				<div class="col-6 card p-5">
+					<div class="bg-secondary mb-2 p-2" align="center">
+						<h4>账号注册</h4>
+
+					</div>
+					<form role="form">
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="basc-addon1">用户名</span>
+							</div>
+							<input type="text" class="form-control" placeholder="Username" />
+						</div>
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="basc-addon2">密码</span>
+							</div>
+							<input type="password" class="form-control" placeholder="Password" />
+						</div>
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="basc-addon3">重新输入密码</span>
+							</div>
+							<input type="password" class="form-control" placeholder="Repassword" />
+						</div>
+					</form>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basc-addon4">城市</span>
+						</div>
+						<select class="form-control" name="cities" id="cities">
+							<option value="0">武汉</option>
+							<option value="1">上海</option>
+							<option value="2">北京</option>
+
+						</select>
+					</div>
+					<button type="button" class="btn btn-success w-100 mt-3">注册</button>
+				</div>
+			</div>
+		</article>
+		<footer class="jumbotron"></footer>
+	</body>
+
+</html>
